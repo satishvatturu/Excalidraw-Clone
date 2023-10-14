@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headId1>p {
+    font: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    cursor: pointer;
+    color: #696969;
+}
+
+#headId2 {
+    margin-left: 130px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    color: #696969;
+    box-shadow: 0em 0em 0.3em 0.3em whitesmoke;
+}
+
+#headId2>.head-para {
+   width: 40px;
+   height: 40px;
+   margin-inline: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#headId2>.head-vl {
+    border-left: 1px solid #696969;
+    height: 30px;
+    margin-inline: 8px;
+}
+
+#headId1>p:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color:#F5F5F5;
+}
+
+#headId2>div:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color:#F5F5F5;
+}
+
+#headId3 {
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headId3>div {
+    margin-inline: 10px;
+}
+
+#head3-user{
+    font-size: 13px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6965db;
+    border-radius: 10px;
+    border-style:none;
+    color:whitesmoke;
+}
+
+#head3-library {
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    color: #696969;
+    padding-inline: 10px;
+    font-family: Roboto;
+}
+
+#head3-user:hover{
+    cursor: pointer;
+    background-color: #5b57d1;
+}
+
+#head3-library:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 15px;
+    color: lightgray;
+    font-family: Roboto;
+    height: 470px;
+}
+
+.footer,.footer-1,.footer-2,.footer-1-1,.footer-1-2 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer{
+    margin-inline: 15px;
+}
+
+/* .footer-1{
+    
+    width: 220px;
+} */
+
+.footer-1-1{
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    color: #696969;
+    margin-right: 20px;
+    font-family: Roboto;
+}
+
+.plus{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    border-left: 1px solid #696969;
+    height: 50px;
+}
+
+.foot-hover-1:hover{
+    cursor: pointer;
+    border-radius:10px 0px 0px 10px;
+    background-color:#F5F5F5;
+    overflow: hidden;
+}
+
+.foot-hover-2:hover{
+    cursor: pointer;
+    border-radius:0px 10px 10px 0px;
+    background-color:#F5F5F5;
+    overflow: hidden;
+}
+
+.footer-1-2{
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    color: #696969;
+    font-family: Roboto;
+}
+
+.minus {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-2{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.shield{
+    font-size: 20px;
+    color: #6965db;
+    cursor: pointer;
+}
+
+.question {
+    font: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dedede;
+    border-radius:10px;
+    cursor: pointer;
+    color: #696969;
+}
+
+.question:hover{
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color:#F5F5F5;
+}
