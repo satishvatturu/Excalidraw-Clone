@@ -3,155 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excalidraw-Clone</title>
+    <title>Excalidraw Clone</title>
     <link rel="stylesheet" href="./style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div id="headId1" class="headClass">
-            <p><i class="fa-solid fa-bars"></i></p>
-        </div>
-        <div id="headId2" class="headClass">
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-unlock-keyhole"></i>
-                </p>
-            </div>
-            <div class="head-vl">
 
-            </div>
-            <div class="head-para">
-                <i class="fa-regular fa-hand"></i>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-arrow-pointer"></i>
-                    <sub>1</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-regular fa-square"></i>
-                    <sub>2</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-diamond"></i>
-                    <sub>3</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-regular fa-circle"></i>
-                    <sub>4</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                    <sub>5</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-minus"></i>
-                    <sub>6</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-pen"></i>
-                    <sub>7</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-font"></i>
-                    <sub>8</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-regular fa-image"></i>
-                    <sub>9</sub>
-                </p>
-            </div>
-            <div class="head-para">
-                <p>
-                    <i class="fa-solid fa-eraser"></i>
-                    <sub>0</sub>
-                </p>
-            </div>
-            <div class="head-vl">
-                
-            </div>
-            <div class="head-para">
-                <i class="fa-solid fa-shapes"></i>
-            </div>
+    <header>
+        <div class="header-1">
+            <button><i class="fa-solid fa-bars"></i></button>
         </div>
-        <div id="headId3" class="headClass">
-            <div id="head3-user">
-                <p>
-                    <i class="fa-solid fa-user-group"></i>
-                </p>
-            </div>
-            <div id="head3-library">
-                <p>
-                    <i class="fa-solid fa-book-open"></i> &nbsp;&nbsp; Library
-                </p>
-            </div>
+
+        <div class="header-2">
+            <button class="btn"><i class="fa-solid fa-unlock"></i></sub></button>
+            <div class="line"></div>
+            <button class="btn"><i class="fa-regular fa-hand"></i></button>
+            <button class="btn"><i class="fa-solid fa-arrow-pointer"></i>&nbsp;<sub>1</sub></button>
+            <button class="btn"><i class="fa-regular fa-square"></i>&nbsp;<sub>2</sub></button>
+            <button class="btn"><i class="fa-solid fa-diamond"></i>&nbsp;<sub>3</sub></button>
+            <button class="btn"><i class="fa-regular fa-circle"></i>&nbsp;<sub>4</sub></button>
+            <button class="btn"><i class="fa-solid fa-arrow-right"></i>&nbsp;<sub>5</sub></button>
+            <button class="btn"><i class="fa-solid fa-minus"></i>&nbsp;<sub>6</sub></button>
+            <button class="btn"><i class="fa-solid fa-pen"></i>&nbsp;<sub>7</sub></button>
+            <button class="btn"><i class="fa-solid fa-font"></i>&nbsp;<sub>8</sub></button>
+            <button class="btn"><i class="fa-regular fa-image"></i>&nbsp;<sub>9</sub></button>
+            <button class="btn"><i class="fa-solid fa-eraser"></i>&nbsp;<sub>0</sub></button>
+            <div class="line"></div>
+            <button class="btn"><i class="fa-solid fa-shapes"></i></button>
+        </div>
+
+        <!-- Media Query max-width 815px -->
+
+        <div class="media-header">
+            <button class="btn"><i class="fa-solid fa-arrow-pointer"></i></button>
+            <button class="btn"><i class="fa-regular fa-square"></i></button>
+            <button class="btn"><i class="fa-solid fa-diamond"></i></button>
+            <button class="btn"><i class="fa-regular fa-circle"></i></button>
+            <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
+            <button class="btn"><i class="fa-solid fa-minus"></i></button>
+            <button class="btn"><i class="fa-solid fa-pen"></i></button>
+            <button class="btn"><i class="fa-solid fa-font"></i></button>
+            <button class="btn"><i class="fa-regular fa-image"></i></button>
+            <button class="btn"><i class="fa-solid fa-eraser"></i></button>
+            <div class="line"></div>
+            <button class="btn"><i class="fa-solid fa-hashtag"></i></button>
+            <button class="btn"><i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <!-- Media Query element end -->
+
+        <div class="header-3">
+            <button class="header-3-btn"><i class="fa-solid fa-user-group"></i></button>
+            <button class="header-3-btn-2"><i class="fa-solid fa-book-open"></i>&nbsp;&nbsp;Library</button>
         </div>
     </header>
 
-    <section>
-        <p>To move canvas, hold mouse wheel or spacebar
-            while dragging, or use the hand tool
-        </p>
+    <!-- Media Query Section -->
+
+    <section class="media-section">
+        <div class="btn-div">
+            <button class="media-sec-btn"><i class="fa-solid fa-book-open"></i></button>
+            <button class="media-sec-btn-2"><i class="fa-solid fa-unlock"></i></button>
+            <button class="media-sec-btn-3"><i class="fa-regular fa-hand"></i></button>
+        </div>
     </section>
 
-    <footer>
-        <div class="footer">
+    <!-- Media Query Section Ends -->
+    <canvas>
+
+    </canvas>
+
+    <footer class="footer-main-1">
+        <div class="footer-div">
             <div class="footer-1">
-                <div class="footer-1-1">
-                    <div class="foot-hover-1 plus">
-                        <p><i class="fa-solid fa-minus"></i></p>
-                    </div>
-                    <div class="line">
-
-                    </div>
-                    <div class="plus">
-                        <p>100%</p>
-                    </div>
-                    <div class="line">
-
-                    </div>
-                    <div class="foot-hover-2 plus">
-                        <p><i class="fa-solid fa-plus"></i></p>
-                    </div>
-                </div>
-                <div class="footer-1-2">
-                    <div class="foot-hover-1 minus">
-                        <p><i class="fa-solid fa-rotate-left"></i></p>
-                    </div>
-                    <div class="line">
-
-                    </div>
-                    <div class="foot-hover-2 minus">
-                        <p><i class="fa-solid fa-rotate-right"></i></p>
-                    </div>
-                </div>
+                <button class="footer-btn-1"><i class="fa-solid fa-minus"></i></button>
+                <button class="footer-btn-2">90%</button>
+                <button class="footer-btn-3"><i class="fa-solid fa-plus"></i></button>
             </div>
             <div class="footer-2">
-                <div class="shield">
-                    <p><i class="fa-solid fa-shield"></i></p>
-                </div>
-                <div class="question">
-                    <p><i class="fa-regular fa-circle-question"></i></p>
-                </div>
+                <button class="footer-2-btn"><i class="fa-solid fa-rotate-left"></i></button>
+                <button class="footer-2-btn-2"><i class="fa-solid fa-rotate-right"></i></button>
             </div>
+        </div>    
+        <div class="footer-3">
+            <div>
+                <i class="fa-solid fa-shield"></i>
+            </div>
+            <button><i class="fa-regular fa-circle-question"></i></button>
         </div>
     </footer>
+
+    <!-- Media Query Footer-1 -->
+
+    <footer class="media-footer-1">
+        <div>
+            <button class="m-f-1-menu"><i class="fa-solid fa-bars"></i></button>
+            <button class="m-f-1-LR"><i class="fa-solid fa-rotate-left"></i></button>
+            <button class="m-f-1-LR"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+    </footer>
+
+    <footer class="media-footer-2">
+        <div>
+            <button class="m-f-2-menu"><i class="fa-solid fa-bars"></i></button>
+            <button class="m-f-2-LR"><i class="fa-solid fa-palette"></i></button>
+            <button class="m-f-2-LR"><i class="fa-solid fa-rotate-left"></i></button>
+            <button class="m-f-2-LR"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>   
+    </footer>
+
+    <!--  -->
+
+    
 </body>
 </html>
