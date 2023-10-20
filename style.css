@@ -7,8 +7,19 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.header-2 .btn, .media-header .btn, .header-3-btn-2, .footer-btn-2{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 header{
     display: flex;
@@ -18,7 +29,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999;
+    cursor: crosshair;
 }
 
 .header-1{
@@ -37,6 +48,8 @@ header{
 }
 
 .header-2{
+    cursor:default;
+    background-color: white;
     display: flex;
     align-items: center;
     height: 50px;
@@ -113,6 +126,7 @@ header{
     } */
     .media-section{
         position: fixed;
+        top : 100px;
         right: 0px;
     }
     
@@ -121,25 +135,27 @@ header{
         flex-direction: column;
         box-sizing: border-box;
         box-shadow:0px 0px .9310142993927002px 0px rgba(0, 0, 0, .17), 0px 0px 3.1270833015441895px 0px rgba(0, 0, 0, .08), 0px 7px 14px 0px rgba(0, 0, 0, .05);
-        border-radius: .5rem;
+        border-radius: .5rem 0 0 .5rem;
     }
     
     .btn-div button{
         width: 40px;
         height: 40px;
         border: none;
-        border-radius: .5rem;
+        border-radius: .5rem 0 0 .5rem;
         background-color: white;
         font-size: 14px;
     }
     
     .btn-div button:hover{
+        background-color: #5B57D1;
         cursor: pointer;
     }
 
 /* Media ends */
 
 .footer-main-1{
+    cursor: crosshair;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,6 +275,17 @@ header{
 .media-footer-2{
     display: none;
 }
+
+
+/* Canvas */
+
+#myCanvas{
+    width: 100vw;
+    height: 100vh;
+    cursor: crosshair;
+}
+
+/* Canvas End */
 
 /* .media-footer-2{
     width: 100%;
@@ -449,14 +476,14 @@ header{
         flex-direction: column;
         box-sizing: border-box;
         box-shadow:0px 0px .9310142993927002px 0px rgba(0, 0, 0, .17), 0px 0px 3.1270833015441895px 0px rgba(0, 0, 0, .08), 0px 7px 14px 0px rgba(0, 0, 0, .05);
-        border-radius: .5rem;
+        border-radius: .5rem 0 0 .5rem;
     }
     
     .btn-div button{
         width: 40px;
         height: 40px;
         border: none;
-        border-radius: .5rem;
+        border-radius: .5rem 0 0 .5rem;
         background-color: white;
         font-size: 14px;
     }
